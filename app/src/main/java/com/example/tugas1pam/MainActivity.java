@@ -11,7 +11,7 @@ import androidx.appcompat.app.AppCompatActivity;
 public class MainActivity extends AppCompatActivity {
     private EditText etEmail, etPass;
     private Button button_login;
-    public static final String Email = "pusingpak@gmail.com";
+    public static final String Email = "ngerikali@gmail.com";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,11 +30,11 @@ public class MainActivity extends AppCompatActivity {
 
                 // Kondisi kalo email kosong
                 if (email.isEmpty()) {
-                    etEmail.setError("Silahkan isi email anda!");
+                    etEmail.setError("Masukkan email anda!");
                     return;
                 }
                 if (pass.isEmpty()) {
-                    etPass.setError("Silahkan isi password anda!");
+                    etPass.setError("Masukkan password anda!");
                     return;
                 }
                 login(email);
