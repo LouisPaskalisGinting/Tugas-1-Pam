@@ -5,7 +5,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/main"
     android:layout_width="match_parent"
-    android:background="@color/bg"
+    android:background="@drawable/bg"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
@@ -15,7 +15,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="200dp"
-        android:background="@drawable/miaw" />
+        android:background="@drawable/foto" />
 
     <EditText
         android:id="@+id/email"
