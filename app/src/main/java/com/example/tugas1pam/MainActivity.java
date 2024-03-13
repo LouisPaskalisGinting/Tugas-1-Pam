@@ -10,7 +10,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
     private EditText etEmail, etPass;
-    private Button btn_login;
+    private Button button_login;
     public static final String Email = "pusingpak@gmail.com";
 
     @Override
@@ -20,9 +20,9 @@ public class MainActivity extends AppCompatActivity {
 
         etEmail = findViewById(R.id.email);
         etPass = findViewById(R.id.pass);
-        btn_login = findViewById(R.id.btn_login);
+        button_login = findViewById(R.id.btn_login);
 
-        btn_login.setOnClickListener(new View.OnClickListener() {
+        button_login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 String email = etEmail.getText().toString();
